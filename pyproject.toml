@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-stream-benchmark"
+version = "0.4.2"
+description = "Production-grade async SSE streaming profiler, jitter analyzer, and benchmark suite for LLM APIs and Gateways."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "AI Infra Engineering" }
+]
+keywords = ["llm", "benchmark", "ttft", "tpot", "sse", "llm-gateway", "openai", "anthropic"]
+dependencies = [
+    "httpx[http2]>=0.27.0",
+    "rich>=13.7.0",
+    "pyyaml>=6.0.1",
+]
+
+[project.scripts]
+llm-bench = "llm_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
