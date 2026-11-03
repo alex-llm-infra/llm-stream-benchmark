@@ -9,7 +9,7 @@
 [![Protocols](https://img.shields.io/badge/Protocols-OpenAI_%7C_Anthropic_Native-orange?style=flat-square)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#)
 
-<!-- TELEMETRY-STAMP:START -->![Last Probe](https://img.shields.io/badge/Last_Upstream_Probe-2026--11--02_22:50_UTC-brightgreen?style=flat-square) (OpenAI: 0ms | Anthropic: 0ms Vert{} Gemini:0ms)<!-- TELEMETRY-STAMP:END -->
+<!-- TELEMETRY-STAMP:START -->![Last Probe](https://img.shields.io/badge/Last_Upstream_Probe-2026--11--03_09:35_UTC-brightgreen?style=flat-square) (OpenAI: 0ms | Anthropic: 0ms Vert{} Gemini:0ms)<!-- TELEMETRY-STAMP:END -->
 
 </div>
 
